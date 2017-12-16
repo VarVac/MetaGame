@@ -10,9 +10,7 @@ Please see the design documents folder for more details on the project goals.
 
 ## Directory
 
-Code examples can be found under java > com.example.haoku.metagame
-
-xml files can be found under res folder
+Code examples can be found under MetaGame/app/src/main/
 
 ## Building
 
