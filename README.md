@@ -17,5 +17,5 @@ Version 0.0.0
 
 UI prototype is partially completed
 
-Copyright Albert Zhang, All rights reserved
+Copyright Albert Zhang, All rights reserved.
 This repository is for viewing only.
