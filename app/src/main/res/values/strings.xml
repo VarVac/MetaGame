@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MetaGame</string>
+    <string name="logo_desc">MetaGame Logo</string>
+    <string name="view_prof_button">View Profile</string>
+    <string name="new_prof_button">New Profile</string>
+    <string name="contact_info">some contacts</string>
+    <string name="title_activity_profile_list">ProfileListActivity</string>
+    <string name="prof_name_label">Profile Name</string>
+    <string name="arch_name_label">Archetype Name</string>
+    <string name="game_name_label">Game Name</string>
+    <string name="player_name_label">Player Name</string>
+    <string name="profile_desc_label">Profile Description</string>
+    <string name="arch_desc_label">Archetype Description</string>
+    <string name="team_switch_title">Team Profile</string>
+    <string name="def_arch_title">Use Default Archetype</string>
+    <string name="def_player_title">Use Default Player Name</string>
+    <string name="confirm_button_label">Confirm</string>
+    <string name="cancel_button_label">Cancel</string>
+    <string name="Recent_games_label">Recent Matches</string>
+    <string name="view_arch_button">View Archetypes</string>
+    <string name="new_arch_button">Add Archetype</string>
+    <string name="view_matches_button">View Matches</string>
+    <string name="new_match_button">Add Match</string>
+    <string name="close_prof_button">Close Profile</string>
+    <string name="filter_button">Filters</string>
+    <string name="arch_one">Archetype 1</string>
+    <string name="arch_two">Archetype 2</string>
+    <string name="player_one">Player 1 Name</string>
+    <string name="player_two">Player 2 Name</string>
+    <string name="arch_one_wins">Player 1 Wins</string>
+    <string name="arch_two_wins">Player 2 Wins</string>
+    <string name="event">Event</string>
+    <string name="date">Date</string>
+    <string name="notes">Notes</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_archetype_view">ArchetypeViewActivity</string>
+    <string name="wins">Wins</string>
+    <string name="losses">Losses</string>
+
+</resources>

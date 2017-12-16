@@ -1,0 +1,9 @@
+ToDo's
+---------------------------------------------------------------
+
+- Complete UI design in Android Studio
+
+- Complete class diagram
+- Complete data model
+
+- Complete persistent storage somehow

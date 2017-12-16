@@ -1,0 +1,32 @@
+0.0.0
+Project Start. No working code.
+
+0.0.1
+Complete Project UI and navigation. Working code running on primary thread.
+
+0.0.2
+Complete Project UI, navigation, and data model. Working code running with all UI and Navigation dependent programming running on primary thread, 
+and all data model functions running on secondary thread.
+
+No persistent data storage.
+
+0.1.0
+Complete application prototype.
+
+Core design principles and functionality met for individual players.
+
+0.2.0
+Second prototype
+
+Networking functionality complete to allow for multiple users to access the same profiles, allowing for better functionality for teams.
+Would require remote database server, Username and log in encryption and security, and continuous revenue source.
+
+0.3.0
+Final Prototype
+
+Additional functionality for developers and developer teams, to be determined once developers are found to talk to. 
+
+1.0.0
+Feature Complete
+
+All initial design goals and functionality met.

@@ -1,0 +1,96 @@
+/***************************\
+/***MetaGame User Stories***\
+/***************************\
+//Created By Albert Zhang
+//Last Updated 5/31/2017
+-----------------------------------------------------------------------------------
+Primary Profile Functionality
+-----------------------------------------------------------------------------------
+An individual player can create a profile to track his/her records within a specific game
+
+An individual player can add notes to a profile to keep store general information about the profile.
+
+An individual player can view a profile to review all information stored in the profile
+
+A team can create a profile to track team records within a specific game
+
+A team can create a profile to track records of an individual player within a specific game
+
+A team can view a profile to review all information stored in the profile
+
+An individual player can add notes to a profile to keep store general information about the profile.
+
+A designer can create a profile to track play-test records for a specific game in development.
+
+A designer can add notes to a profile to store general information about the profile.
+
+A designer can view a profile to review all information stored in the profile
+
+-----------------------------------------------------------------------------------
+Archetype Functionality
+-----------------------------------------------------------------------------------
+An individual player can add archetypes to a profile to classify matches by archetype in order to 
+compare archetypes to one another
+
+An individual player can add notes to an archetype to describe the archetype
+
+An individual player can view an archetype within a profile to view the statistics about that archetype, 
+including win to loss ratio and all games classified by that archetype
+
+An individual player can search for an archetype within a profile to quickly find an archetype.
+
+While viewing an archetype, an individual player can specify a second archetype in order to view all 
+matches in which both archetypes where played against one another
+
+A team can add archetypes to a profile to classify matches by archetype in order to compare archetypes 
+to one another
+
+A team can view an archetype within a profile to view the statistics about that archetype, including win 
+to loss ratio and all games classified by that archetype
+
+A team can add notes to an archetype to describe the archetype
+
+A team can search for an archetype within a profile to quickly find an archetype.
+
+While viewing an archetype, a team can specify a second archetype in order to view all matches in which 
+both archetypes where played against one another
+
+A designer can add archetypes to a profile to classify play-test matches in order to compare archetypes 
+to one another
+
+A designer can add notes to an archetype to describe the archetype
+
+A designer can view an archetype within a profile to view the statistics about that archetype, including 
+win to loss ratio and all games classified by that archetype
+
+While viewing an archetype, a designer can specify a second archetype in order to view all matches in 
+which both archetypes where played against one another
+
+An designer can search for an archetype within a profile to quickly find an archetype.
+
+-----------------------------------------------------------------------------------
+Matches Functionality
+-----------------------------------------------------------------------------------
+An Individual player can add matches to a profile to update his/her records within the profile
+
+While in the profile or archetype view, an individual player can select a match to view information about 
+the match.
+
+An individual player can filter matches by date, event, name, opponent, or archetype in order to only 
+view matches that match those criteria.
+
+A team can add matches to a profile to update records within the profile
+
+A team can filter matches by date, event, name, opponent, or archetype in order to only view matches 
+that match those criteria.
+
+While in the profile or archetype view, a team can select a match to view information about the match.
+A designer can add matches to a profile to update play-test matches within the profile.
+
+While in the profile or archetype view, a designer can select a match to view information about the 
+match.
+
+A designer can filter matches by date, event, name, opponent, or archetype in order to only view 
+matches that match those criteria.
+
+

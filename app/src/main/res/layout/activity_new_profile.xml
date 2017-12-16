@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haoku.metagame.NewProfileActivity">
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/profileNameLabel"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prof_name_label"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/profileNameField"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/gameNameLabel"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/game_name_label"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/gameNameField"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/profileDescLabel"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_desc_label"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/profileDescField"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.01"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <Switch
+                android:id="@+id/teamSwitch"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/team_switch_title"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/defaultArchSwitch"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/def_arch_title"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/defaultPlayerSwitch"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/def_player_title"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/archNameLabel"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/arch_name_label"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/archNameField"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/playerNameLabel"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/player_name_label"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/playerNameField"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/archDescLabel"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/archDescField"
+                style="@style/LinearLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/confirmButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/confirm_button_label"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/cancelButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cancel_button_label"
+                    tools:ignore="ButtonStyle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
