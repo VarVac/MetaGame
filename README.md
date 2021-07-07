@@ -1,4 +1,5 @@
 # MetaGame
+This is an archived repository of an old school project
 
 ## Project Description
 
